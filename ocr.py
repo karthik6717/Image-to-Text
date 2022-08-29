@@ -16,7 +16,7 @@ st.title("Extract Text from Images")
 #subtitle
 st.markdown("## Optical Character Recognition - Using easyocr ")
 
-imag_text = Image.open("C:\\Users\\golla\\OneDrive\\Desktop\\streamlit tut\\image_to_text\\text.jpeg")
+imag_text = Image.open("text.jpeg")
 st.image(imag_text,width = 500, use_column_width = 140 )
 
 st.markdown("")
