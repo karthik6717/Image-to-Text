@@ -11,7 +11,10 @@ st.set_page_config(page_title = "Image to Text" ,page_icon ="📋",layout = "wid
 
 
 #title
+st.title("Textify Image")
+
 st.title("Extract Text from Images")
+
 
 #subtitle
 st.markdown("## Optical Character Recognition - Using easyocr ")
